@@ -54,7 +54,12 @@
   margin: 5px 0;
 }
 
-/* To prevent modal from blocking page scrolling */
+.img {
+  float: left;
+  width:  100px;
+  height: 100px;
+  background-size: cover;
+}
 body.modal-open {
   overflow: hidden;
 }

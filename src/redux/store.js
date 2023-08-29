@@ -1,7 +1,6 @@
-// store.js inside the redux folder
+
 import { createStore, combineReducers } from 'redux';
 import searchReducer from './searchReducer';
-// import { searchReducer } from './searchHistory';
 
 
 const rootReducer = combineReducers({

@@ -33,7 +33,7 @@ function ImageList({ images }) {
         {selectedImage && (
           <div  className="modal" onClick={closeImage}>
             <div  onClick={(e) => e.stopPropagation()}>
-              {/* Display selected image information here , you can cancel the popup*/}
+            
             </div>
           </div>
         )}

@@ -1,4 +1,4 @@
-// searchHistoryReducer.js
+
 import { ADD_SEARCH_TERM } from './searchActions';
 
 const initialState = [];
